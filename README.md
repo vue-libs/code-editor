@@ -1,24 +1,36 @@
 # code-editor
 
-## Project setup
-```
-yarn install
-```
+## A code editor wrapper build around MONACO editor which powers the VS CODE
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+### Configs 
 
-### Compiles and minifies for production
-```
-yarn build
-```
+These are the list of languages along with there config key - that are being supported:
+['javascript', 'css', 'cpp', 'html', 'typescript', 'java', 'python', 'csharp', 'ruby', 'markdown']
 
-### Lints and fixes files
-```
-yarn lint
-```
+These are the list of themes along with there config key - that are being supported:
+['vs', 'vs-dark', 'hc-black']
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Defaults
+
+These are the defaults:
+```
+    style: "width:800px;height:600px;",
+    theme: "vs",
+    language: "javascript",
+```
+More documentation coming soon
+
+
+## Contributing
+
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
+Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
+the rights to use your contribution. For details, visit https://cla.microsoft.com.
+
+When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
+provided by the bot. You will only need to do this once across all repos using our CLA.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
